@@ -21,6 +21,7 @@ const UserSchema = new mongoose.Schema({
   },
   picture: {
     type: String,
+    required: false,
   },
   newMessages: {
     type: Object,
